@@ -63,7 +63,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(ProjectDir)..\libs\glfw\lib-vc2010-32;$(ProjectDir)..\libs\SDL2\lib\x86;$(ProjectDir)..\libs\ffmpeg\lib;$(ProjectDir)..\libs\portaudio\lib\debug;$(ProjectDir)..\libs\screen_capture\lib\debug;$(ProjectDir)..\libs\screen_capture_lite\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\libs\glfw\lib-vc2010-32;$(ProjectDir)..\libs\SDL2\lib\x86;$(ProjectDir)..\libs\ffmpeg\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>glfw3.lib;opengl32.lib;SDL2.lib;avdevice.lib;avformat.lib;swresample.lib;avcodec.lib;swscale.lib;avutil.lib;dxgi.lib;d3d11.lib;d3d9.lib;dxva2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>

@@ -1,7 +1,7 @@
 ﻿#include "ScreenLive.h"
 #include "MainWindow.h"
 
-#define ENABLE_SDL_WINDOW 1
+#define ENABLE_SDL_WINDOW 0
 
 #if ENABLE_SDL_WINDOW
 
